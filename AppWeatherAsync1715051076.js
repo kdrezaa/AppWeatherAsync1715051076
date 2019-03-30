@@ -111,7 +111,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconTemp} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Temp : {this.state.forecast.temp} 'C</Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Temp : {this.state.forecast.temp} 'C</Text>
             </View>
           </View>
         </View>
@@ -121,7 +121,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconWind} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Wind Speed: {this.state.forecast.speed}</Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Wind Speed: {this.state.forecast.speed}</Text>
             </View>
           </View>
         </View>
@@ -131,7 +131,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconMain} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Main : {this.state.forecast.main}</Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Main : {this.state.forecast.main}</Text>
             </View>
           </View>
         </View>
@@ -141,7 +141,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconDesc} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Main Desc : {this.state.forecast.description}</Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Main Desc : {this.state.forecast.description}</Text>
             </View>
           </View>
         </View>
@@ -151,7 +151,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconSunrise} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Sunrise : {this.state.forecast.sunrise}</Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Sunrise : {this.state.forecast.sunrise}</Text>
             </View>
           </View>
         </View>
@@ -161,7 +161,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconSunset} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Sunset : {this.state.forecast.sunset}</Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Sunset : {this.state.forecast.sunset}</Text>
             </View>
           </View>
         </View>
@@ -171,7 +171,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconPressure} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Pressure : {this.state.forecast.pressure}</Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Pressure : {this.state.forecast.pressure}</Text>
             </View>
           </View>
         </View>
@@ -181,7 +181,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconHumidity} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Humidity : {this.state.forecast.humidity} % </Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Humidity : {this.state.forecast.humidity} % </Text>
             </View>
           </View>
         </View>
@@ -191,7 +191,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconSeaLvl} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Sea Level : {this.state.forecast.seaLvl}</Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Sea Level : {this.state.forecast.seaLvl}</Text>
             </View>
           </View>
         </View>
@@ -201,7 +201,7 @@ export default class AppWeatherAsync1715051076 extends React.Component {
           <View style={styles.BoxItemInner}>
             <Image source={iconGndLvl} style={styles.boxIcon} />
             <View style={styles.boxItemValue}>
-              <Text style = {{padding: 2, fontSize: 13}} >Ground Level : {this.state.forecast.gndLvl}</Text>
+              <Text style = {{padding: 2, fontSize: 12}} >Ground Level : {this.state.forecast.gndLvl}</Text>
             </View>
           </View>
         </View>
